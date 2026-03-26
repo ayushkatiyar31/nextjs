@@ -13,7 +13,6 @@ const Posts = () => {
       const data = await response.json();
       setPosts(data);
     }
-
     fetchPosts();
   }, []);
 
